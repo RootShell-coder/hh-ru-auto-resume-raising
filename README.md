@@ -1,4 +1,4 @@
-# Head hanter bot
+# Head hunter bot
 
 ![hh ru auto resume raising](https://github.com/RootShell-coder/hh-ru-auto-resume-raising/actions/workflows/docker-publish.yaml/badge.svg?branch=docker)
 
