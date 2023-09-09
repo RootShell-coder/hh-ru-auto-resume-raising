@@ -1,0 +1,16 @@
+---
+version: '3.9'
+services:
+  hh:
+    image: rootshellcoder/hh-ru-auto-resume-raising:latest
+    restart: always
+    env_file:
+      - .env_pub
+    deploy:
+      resources:
+        limits:
+          cpus: '0.2'
+          memory: 64M
+        reservations:
+          cpus: '0.1'
+          memory: 32M

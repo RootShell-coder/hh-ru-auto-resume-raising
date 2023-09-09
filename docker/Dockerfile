@@ -1,35 +1,33 @@
-# update Oct 25 05a554c
-FROM ubuntu:latest as build
-RUN apt update && apt install -y git
-WORKDIR  /tmp
-RUN git clone https://github.com/RootShell-coder/hh-ru-auto-resume-raising.git --branch main --depth 1
-
-FROM python:3
-RUN apt update && useradd -m hh -s /bin/bash
-COPY --from=build /tmp/hh-ru-auto-resume-raising /home/hh/
-
-COPY docker-entrypoint.sh /usr/local/bin
-RUN chown -R hh:hh /home/hh && chmod 777 /usr/local/bin/docker-entrypoint.sh
-
+FROM python:alpine AS build
+WORKDIR  /home/hh
+RUN set eux; \
+    apk add --update --no-cache \
+    bash \
+    git \
+    sed \
+    libxml2 \
+    libxslt-dev \
+    libffi-dev \
+    build-base; \
+    addgroup -S hh; \
+    adduser -S hh -G hh -h /home/hh -s /bin/bash;
 USER hh
-WORKDIR  /home/hh/
-ENV PATH="${PATH}:/home/hh/.local/bin"
-RUN pip install --upgrade pip && pip install -r requirements.txt
+RUN set eux; \
+    git clone https://github.com/sergo-code/hh-ru-auto-resume-raising.git --branch main --depth 1 .; \
+    sed -i 's/aiohttp==3.8.1/aiohttp==3.8.5/' requirements.txt; \
+    rm .env_pub; \
+    python3 -m pip install -r requirements.txt;
 
-ARG PHONE='PHONE'
-ARG PASSWORD='PASSWORD'
-ARG PROXY='PROXY'
-ARG BOT_TOKEN='BOT_TOKEN'
-ARG ADMIN_TG='ADMIN_TG'
-ARG TIME_ZONE='Europe/Moscow'
-
-RUN echo "phone="${PHONE} > .env \
-    && echo "password="${PASSWORD} >> .env \
-    && echo "proxy="${PROXY} >> .env \
-    && echo "bot_token="${BOT_TOKEN} >> .env \
-    && echo "admin_tg="${ADMIN_TG} >> .env \
-    && echo "time_zone="${TIME_ZONE} >> .env \
-    && cat .env
-
-ENTRYPOINT ["docker-entrypoint.sh"]
-CMD [ "python3", "bot.py" ]
+FROM python:alpine
+WORKDIR  /home/hh
+RUN set eux; \
+    apk add --update --no-cache \
+    libxml2 \
+    libxslt-dev \
+    libffi-dev \
+    build-base; \
+    addgroup -S hh; \
+    adduser -S hh -G hh -h /home/hh -s /bin/ash;
+USER hh
+COPY --chown=hh:hh --from=build /home/hh .
+ENTRYPOINT [ "python3" , "bot.py" ]
