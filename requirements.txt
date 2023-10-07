@@ -47,3 +47,4 @@ webdriver-manager==3.8.3
 wsproto==1.2.0
 yarl==1.8.1
 zstandard==0.18.0
+pyTelegramBotAPI
