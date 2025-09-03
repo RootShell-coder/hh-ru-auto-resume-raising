@@ -1,7 +1,7 @@
 ---
 services:
   hh:
-    image: ghcr.io/rootshellcoder/hh-ru-auto-resume-raising:latest
+    image: ghcr.io/rootshell-coder/hh-ru-auto-resume-raising:latest
     restart: always
     environment:
       - phone=79876543210
@@ -10,11 +10,3 @@ services:
       - bot_token=1111111:a1a1a1a1a1a
       - admin_tg=01020304
       - time_zone=Europe/Moscow
-    deploy:
-      resources:
-        limits:
-          cpus: '0.2'
-          memory: 64M
-        reservations:
-          cpus: '0.1'
-          memory: 32M
