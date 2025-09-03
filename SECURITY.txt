@@ -1,0 +1,337 @@
+
+Report Summary
+
+┌──────────────────────────────────────────────────────────────────────────────────┬────────────┬─────────────────┬─────────┐
+│                                      Target                                      │    Type    │ Vulnerabilities │ Secrets │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ ghcr.io/rootshell-coder/hh-ru-auto-resume-raising:latest (alpine 3.22.1)         │   alpine   │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/Babel-2.9.1.dist-info/METADATA       │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/Brotli-1.0.9.dist-info/METADATA      │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/PySocks-1.7.1.dist-info/METADATA     │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/aiofiles-22.1.0.dist-info/METADATA   │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/aiogram-2.22.1.dist-info/METADATA    │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/aiohttp-3.8.5.dist-info/METADATA     │ python-pkg │       10        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/aiosignal-1.2.0.dist-info/METADATA   │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/async_generator-1.10.dist-info/META- │ python-pkg │        0        │    -    │
+│ DATA                                                                             │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/async_timeout-4.0.2.dist-info/METAD- │ python-pkg │        0        │    -    │
+│ ATA                                                                              │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/attrs-22.1.0.dist-info/METADATA      │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/beautifulsoup4-4.11.1.dist-info/MET- │ python-pkg │        0        │    -    │
+│ ADATA                                                                            │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/blinker-1.5.dist-info/METADATA       │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/certifi-2022.9.14.dist-info/METADATA │ python-pkg │        3        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/cffi-1.15.1.dist-info/METADATA       │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/charset_normalizer-2.1.1.dist-info/- │ python-pkg │        0        │    -    │
+│ METADATA                                                                         │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/colorama-0.4.5.dist-info/METADATA    │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/cryptography-38.0.1.dist-info/METAD- │ python-pkg │       11        │    -    │
+│ ATA                                                                              │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/fake_useragent-1.2.1.dist-info/META- │ python-pkg │        0        │    -    │
+│ DATA                                                                             │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/frozenlist-1.3.1.dist-info/METADATA  │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/h11-0.13.0.dist-info/METADATA        │ python-pkg │        1        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/h2-4.1.0.dist-info/METADATA          │ python-pkg │        1        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/hpack-4.0.0.dist-info/METADATA       │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/hyperframe-6.0.1.dist-info/METADATA  │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/idna-3.4.dist-info/METADATA          │ python-pkg │        1        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/kaitaistruct-0.10.dist-info/METADATA │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/lxml-4.9.1.dist-info/METADATA        │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/multidict-6.0.2.dist-info/METADATA   │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/outcome-1.2.0.dist-info/METADATA     │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/pyOpenSSL-22.0.0.dist-info/METADATA  │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/pyasn1-0.4.8.dist-info/METADATA      │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/pycparser-2.21.dist-info/METADATA    │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/pydivert-2.1.0.dist-info/METADATA    │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/pyparsing-3.0.9.dist-info/METADATA   │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/python_dotenv-0.21.0.dist-info/META- │ python-pkg │        0        │    -    │
+│ DATA                                                                             │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/pytz-2022.2.1.dist-info/METADATA     │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/requests-2.28.1.dist-info/METADATA   │ python-pkg │        3        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/selenium-4.4.3.dist-info/METADATA    │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/selenium_wire-4.6.5.dist-info/METAD- │ python-pkg │        0        │    -    │
+│ ATA                                                                              │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/sniffio-1.3.0.dist-info/METADATA     │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/sortedcontainers-2.4.0.dist-info/ME- │ python-pkg │        0        │    -    │
+│ TADATA                                                                           │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/soupsieve-2.3.2.post1.dist-info/MET- │ python-pkg │        0        │    -    │
+│ ADATA                                                                            │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/tqdm-4.64.1.dist-info/METADATA       │ python-pkg │        1        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/trio-0.21.0.dist-info/METADATA       │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/trio_websocket-0.9.2.dist-info/META- │ python-pkg │        0        │    -    │
+│ DATA                                                                             │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/urllib3-1.26.12.dist-info/METADATA   │ python-pkg │        4        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/webdriver_manager-3.8.3.dist-info/M- │ python-pkg │        0        │    -    │
+│ ETADATA                                                                          │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/wsproto-1.2.0.dist-info/METADATA     │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/yarl-1.8.1.dist-info/METADATA        │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/hh/.local/lib/python3.11/site-packages/zstandard-0.18.0.dist-info/METADATA  │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/pip-24.0.dist-info/METADATA               │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/setuptools-65.5.1.dist-info/METADATA      │ python-pkg │        2        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ usr/local/lib/python3.11/site-packages/wheel-0.45.1.dist-info/METADATA           │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ /home/hh/.local/lib/python3.11/site-packages/seleniumwire/ca.key                 │    text    │        -        │    1    │
+└──────────────────────────────────────────────────────────────────────────────────┴────────────┴─────────────────┴─────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+Python (python-pkg)
+===================
+Total: 37 (UNKNOWN: 0, LOW: 6, MEDIUM: 21, HIGH: 9, CRITICAL: 1)
+
+┌─────────────────────────┬─────────────────────┬──────────┬────────┬───────────────────┬────────────────┬──────────────────────────────────────────────────────────────┐
+│         Library         │    Vulnerability    │ Severity │ Status │ Installed Version │ Fixed Version  │                            Title                             │
+├─────────────────────────┼─────────────────────┼──────────┼────────┼───────────────────┼────────────────┼──────────────────────────────────────────────────────────────┤
+│ aiohttp (METADATA)      │ CVE-2024-23334      │ HIGH     │ fixed  │ 3.8.5             │ 3.9.2          │ aiohttp: follow_symlinks directory traversal vulnerability   │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-23334                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2024-30251      │          │        │                   │ 3.9.4          │ aiohttp: DoS when trying to parse malformed POST requests    │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-30251                   │
+│                         ├─────────────────────┼──────────┤        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2023-47627      │ MEDIUM   │        │                   │ 3.8.6          │ python-aiohttp: numerous issues in HTTP parser with header   │
+│                         │                     │          │        │                   │                │ parsing                                                      │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2023-47627                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2023-49081      │          │        │                   │ 3.9.0          │ aiohttp: HTTP request modification                           │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2023-49081                   │
+│                         ├─────────────────────┤          │        │                   │                ├──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2023-49082      │          │        │                   │                │ aiohttp: CRLF injection if user controls the HTTP method     │
+│                         │                     │          │        │                   │                │ using aiohttp client...                                      │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2023-49082                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2024-23829      │          │        │                   │ 3.9.2          │ python-aiohttp: http request smuggling                       │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-23829                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2024-27306      │          │        │                   │ 3.9.4          │ aiohttp: XSS on index pages for static file handling         │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-27306                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2024-52304      │          │        │                   │ 3.10.11        │ aiohttp: aiohttp vulnerable to request smuggling due to      │
+│                         │                     │          │        │                   │                │ incorrect parsing of chunk...                                │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-52304                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ GHSA-pjjw-qhg8-p2p9 │          │        │                   │ 3.8.6          │ aiohttp has vulnerable dependency that is vulnerable to      │
+│                         │                     │          │        │                   │                │ request smuggling                                            │
+│                         │                     │          │        │                   │                │ https://github.com/advisories/GHSA-pjjw-qhg8-p2p9            │
+│                         ├─────────────────────┼──────────┤        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2025-53643      │ LOW      │        │                   │ 3.12.14        │ aiohttp: AIOHTTP HTTP Request/Response Smuggling             │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2025-53643                   │
+├─────────────────────────┼─────────────────────┼──────────┤        ├───────────────────┼────────────────┼──────────────────────────────────────────────────────────────┤
+│ certifi (METADATA)      │ CVE-2023-37920      │ HIGH     │        │ 2022.9.14         │ 2023.7.22      │ python-certifi: Removal of e-Tugra root certificate          │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2023-37920                   │
+│                         ├─────────────────────┼──────────┤        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2022-23491      │ MEDIUM   │        │                   │ 2022.12.07     │ python-certifi: untrusted root certificates                  │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2022-23491                   │
+│                         ├─────────────────────┼──────────┤        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2024-39689      │ LOW      │        │                   │ 2024.7.4       │ python-certifi: Remove root certificates from `GLOBALTRUST`  │
+│                         │                     │          │        │                   │                │ from the root store                                          │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-39689                   │
+├─────────────────────────┼─────────────────────┼──────────┤        ├───────────────────┼────────────────┼──────────────────────────────────────────────────────────────┤
+│ cryptography (METADATA) │ CVE-2023-0286       │ HIGH     │        │ 38.0.1            │ 39.0.1         │ openssl: X.400 address type confusion in X.509 GeneralName   │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2023-0286                    │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2023-50782      │          │        │                   │ 42.0.0         │ python-cryptography: Bleichenbacher timing oracle attack     │
+│                         │                     │          │        │                   │                │ against RSA decryption - incomplete fix for...               │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2023-50782                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2024-26130      │          │        │                   │ 42.0.4         │ python-cryptography: NULL pointer dereference with           │
+│                         │                     │          │        │                   │                │ pkcs12.serialize_key_and_certificates when called with a     │
+│                         │                     │          │        │                   │                │ non-matching certificate...                                  │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-26130                   │
+│                         ├─────────────────────┼──────────┤        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2023-23931      │ MEDIUM   │        │                   │ 39.0.1         │ python-cryptography: memory corruption via immutable objects │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2023-23931                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2023-49083      │          │        │                   │ 41.0.6         │ python-cryptography: NULL-dereference when loading PKCS7     │
+│                         │                     │          │        │                   │                │ certificates                                                 │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2023-49083                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2024-0727       │          │        │                   │ 42.0.2         │ openssl: denial of service via null dereference              │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-0727                    │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ GHSA-39hc-v87j-747x │          │        │                   │ 38.0.3         │ Vulnerable OpenSSL included in cryptography wheels           │
+│                         │                     │          │        │                   │                │ https://github.com/advisories/GHSA-39hc-v87j-747x            │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ GHSA-h4gh-qq45-vh27 │          │        │                   │ 43.0.1         │ pyca/cryptography has a vulnerable OpenSSL included in       │
+│                         │                     │          │        │                   │                │ cryptography wheels                                          │
+│                         │                     │          │        │                   │                │ https://github.com/advisories/GHSA-h4gh-qq45-vh27            │
+│                         ├─────────────────────┼──────────┤        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ GHSA-5cpq-8wj7-hf2v │ LOW      │        │                   │ 41.0.0         │ Vulnerable OpenSSL included in cryptography wheels           │
+│                         │                     │          │        │                   │                │ https://github.com/advisories/GHSA-5cpq-8wj7-hf2v            │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ GHSA-jm77-qphf-c4w8 │          │        │                   │ 41.0.3         │ pyca/cryptography's wheels include vulnerable OpenSSL        │
+│                         │                     │          │        │                   │                │ https://github.com/advisories/GHSA-jm77-qphf-c4w8            │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ GHSA-v8gr-m533-ghj9 │          │        │                   │ 41.0.4         │ Vulnerable OpenSSL included in cryptography wheels           │
+│                         │                     │          │        │                   │                │ https://github.com/advisories/GHSA-v8gr-m533-ghj9            │
+├─────────────────────────┼─────────────────────┼──────────┤        ├───────────────────┼────────────────┼──────────────────────────────────────────────────────────────┤
+│ h11 (METADATA)          │ CVE-2025-43859      │ CRITICAL │        │ 0.13.0            │ 0.16.0         │ h11: h11 accepts some malformed Chunked-Encoding bodies      │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2025-43859                   │
+├─────────────────────────┼─────────────────────┼──────────┤        ├───────────────────┼────────────────┼──────────────────────────────────────────────────────────────┤
+│ h2 (METADATA)           │ CVE-2025-57804      │ MEDIUM   │        │ 4.1.0             │ 4.3.0          │ h2: h2 allows HTTP Request Smuggling due to illegal          │
+│                         │                     │          │        │                   │                │ characters in headers...                                     │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2025-57804                   │
+├─────────────────────────┼─────────────────────┤          │        ├───────────────────┼────────────────┼──────────────────────────────────────────────────────────────┤
+│ idna (METADATA)         │ CVE-2024-3651       │          │        │ 3.4               │ 3.7            │ python-idna: potential DoS via resource consumption via      │
+│                         │                     │          │        │                   │                │ specially crafted inputs to idna.encode()...                 │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-3651                    │
+├─────────────────────────┼─────────────────────┤          │        ├───────────────────┼────────────────┼──────────────────────────────────────────────────────────────┤
+│ requests (METADATA)     │ CVE-2023-32681      │          │        │ 2.28.1            │ 2.31.0         │ python-requests: Unintended leak of Proxy-Authorization      │
+│                         │                     │          │        │                   │                │ header                                                       │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2023-32681                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2024-35195      │          │        │                   │ 2.32.0         │ requests: subsequent requests to the same host ignore cert   │
+│                         │                     │          │        │                   │                │ verification                                                 │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-35195                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2024-47081      │          │        │                   │ 2.32.4         │ requests: Requests vulnerable to .netrc credentials leak via │
+│                         │                     │          │        │                   │                │ malicious URLs                                               │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-47081                   │
+├─────────────────────────┼─────────────────────┼──────────┤        ├───────────────────┼────────────────┼──────────────────────────────────────────────────────────────┤
+│ setuptools (METADATA)   │ CVE-2024-6345       │ HIGH     │        │ 65.5.1            │ 70.0.0         │ pypa/setuptools: Remote code execution via download          │
+│                         │                     │          │        │                   │                │ functions in the package_index module in...                  │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-6345                    │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2025-47273      │          │        │                   │ 78.1.1         │ setuptools: Path Traversal Vulnerability in setuptools       │
+│                         │                     │          │        │                   │                │ PackageIndex                                                 │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2025-47273                   │
+├─────────────────────────┼─────────────────────┼──────────┤        ├───────────────────┼────────────────┼──────────────────────────────────────────────────────────────┤
+│ tqdm (METADATA)         │ CVE-2024-34062      │ LOW      │        │ 4.64.1            │ 4.66.3         │ python-tqdm: non-boolean CLI arguments may lead to local     │
+│                         │                     │          │        │                   │                │ code execution                                               │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-34062                   │
+├─────────────────────────┼─────────────────────┼──────────┤        ├───────────────────┼────────────────┼──────────────────────────────────────────────────────────────┤
+│ urllib3 (METADATA)      │ CVE-2023-43804      │ HIGH     │        │ 1.26.12           │ 2.0.6, 1.26.17 │ python-urllib3: Cookie request header isn't stripped during  │
+│                         │                     │          │        │                   │                │ cross-origin redirects                                       │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2023-43804                   │
+│                         ├─────────────────────┼──────────┤        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2023-45803      │ MEDIUM   │        │                   │ 2.0.7, 1.26.18 │ urllib3: Request body not stripped after redirect from 303   │
+│                         │                     │          │        │                   │                │ status changes request...                                    │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2023-45803                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2024-37891      │          │        │                   │ 1.26.19, 2.2.2 │ urllib3: proxy-authorization request header is not stripped  │
+│                         │                     │          │        │                   │                │ during cross-origin redirects                                │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-37891                   │
+│                         ├─────────────────────┤          │        │                   ├────────────────┼──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2025-50181      │          │        │                   │ 2.5.0          │ urllib3: urllib3 redirects are not disabled when retries are │
+│                         │                     │          │        │                   │                │ disabled on PoolManager...                                   │
+│                         │                     │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2025-50181                   │
+└─────────────────────────┴─────────────────────┴──────────┴────────┴───────────────────┴────────────────┴──────────────────────────────────────────────────────────────┘
+
+/home/hh/.local/lib/python3.11/site-packages/seleniumwire/ca.key (secrets)
+==========================================================================
+Total: 1 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 1, CRITICAL: 0)
+
+HIGH: AsymmetricPrivateKey (private-key)
+════════════════════════════════════════
+Asymmetric Private Key
+────────────────────────────────────────
+ /home/hh/.local/lib/python3.11/site-packages/seleniumwire/ca.key:2-51 (added by 'COPY --chown=hh:hh /home/hh . # buildkit')
+────────────────────────────────────────
+   1   -----BEGIN PRIVATE KEY-----
+   2 ┌ ****************************************************************
+   3 │ ****************************************************************
+   4 │ ****************************************************************
+   5 │ ****************************************************************
+   6 │ ****************************************************************
+   7 │ ****************************************************************
+   8 │ ****************************************************************
+   9 │ ****************************************************************
+  10 │ ****************************************************************
+  11 │ ****************************************************************
+  12 │ ****************************************************************
+  13 │ ****************************************************************
+  14 │ ****************************************************************
+  15 │ ****************************************************************
+  16 │ ****************************************************************
+  17 │ ****************************************************************
+  18 │ ****************************************************************
+  19 │ ****************************************************************
+  20 │ ****************************************************************
+  21 │ ****************************************************************
+  22 │ ****************************************************************
+  23 │ ****************************************************************
+  24 │ ****************************************************************
+  25 │ ****************************************************************
+  26 │ ****************************************************************
+  27 │ ****************************************************************
+  28 │ ****************************************************************
+  29 │ ****************************************************************
+  30 │ ****************************************************************
+  31 │ ****************************************************************
+  32 │ ****************************************************************
+  33 │ ****************************************************************
+  34 │ ****************************************************************
+  35 │ ****************************************************************
+  36 │ ****************************************************************
+  37 │ ****************************************************************
+  38 │ ****************************************************************
+  39 │ ****************************************************************
+  40 │ ****************************************************************
+  41 │ ****************************************************************
+  42 │ ****************************************************************
+  43 │ ****************************************************************
+  44 │ ****************************************************************
+  45 │ ****************************************************************
+  46 │ ****************************************************************
+  47 │ ****************************************************************
+  48 │ ****************************************************************
+  49 │ ****************************************************************
+  50 │ ****************************************************************
+  51 └ ********************************
+  52   -----END PRIVATE KEY-----
+────────────────────────────────────────
+
+
