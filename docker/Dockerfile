@@ -1,4 +1,4 @@
-FROM python:alpine AS build
+FROM python:3.11-alpine AS build
 WORKDIR  /home/hh
 RUN set eux; \
     apk add --update --no-cache \
@@ -18,7 +18,7 @@ RUN set eux; \
     rm .env_pub; \
     python3 -m pip install -r requirements.txt;
 
-FROM python:alpine
+FROM python:3.11-alpine
 WORKDIR  /home/hh
 RUN set eux; \
     apk add --update --no-cache \

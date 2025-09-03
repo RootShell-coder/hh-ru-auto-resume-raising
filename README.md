@@ -19,17 +19,3 @@ time_zone=Europe/Moscow
 ```
 
 **proxy None or your proxy server*
-
-## Run docker compose
-
-docker-compose.yaml
-
-```yaml
-version: '3.9'
-services:
-  hh:
-    image: rootshellcoder/hh-ru-auto-resume-raising:latest
-    restart: always
-    env_file:
-      - .env_pub
-```
